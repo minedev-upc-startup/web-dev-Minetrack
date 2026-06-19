@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniVerse Studio - Galería anime con HTML + CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header__inner">
+    <h1 class="brand">AniVerse Studio</h1>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a class="is-active" href="#inicio">Inicio</a></li>
+        <li><a href="#publicaciones">Publicaciones</a></li>
+        <li><a href="#amor">Emociones</a></li>
+        <li><a href="#accion">Acción</a></li>
+        <li><a href="#comedia">Comedia</a></li>
+        <li><a href="#fantasia">Fantasía</a></li>
+        <li><a href="#acerca">Acerca</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="inicio" class="hero container">
+    <h2 class="hero__title">Crea tu primera <span>galería anime</span> usando HTML + CSS</h2>
+    <p class="hero__subtitle">
+      Aprende paso a paso cómo construir tarjetas, imágenes, etiquetas, secciones y efectos visuales sin instalar nada.
+    </p>
+
+    <form class="hero__search">
+      <input type="search" placeholder="Buscar serie, categoría o personaje..." />
+      <button type="submit">🔎</button>
+    </form>
+  </section>
+
+  <section id="publicaciones" class="container">
+    <h2 class="section-title">Explora ejemplos destacados</h2>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/Demonslayer.jpg" alt="Demon Slayer">
+        </div>
+        <div class="card__body">
+          <h3>Demon Slayer</h3>
+          <p>Animación sobresaliente y una historia conmovedora.</p>
+          <ul class="tags">
+            <li>Shonen</li>
+            <li>Acción</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/Spyxfamily.avif" alt="Spy x Family">
+        </div>
+        <div class="card__body">
+          <h3>Spy x Family</h3>
+          <p>Humor y corazón con una familia inusual.</p>
+          <ul class="tags">
+            <li>Comedia</li>
+            <li>Slice of Life</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/Jujutsukaisen.webp" alt="Jujutsu Kaisen">
+        </div>
+        <div class="card__body">
+          <h3>Jujutsu Kaisen</h3>
+          <p>Hechicería moderna con coreografías asombrosas.</p>
+          <ul class="tags">
+            <li>Acción</li>
+            <li>Sobrenatural</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/haikyuu.jpg" alt="Haikyuu!!">
+        </div>
+        <div class="card__body">
+          <h3>Haikyuu!!</h3>
+          <p>Deporte, trabajo en equipo y amistad.</p>
+          <ul class="tags">
+            <li>Deportes</li>
+            <li>Motivación</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="amor" class="category container">
+    <div class="section-row">
+      <h2 class="section-title">Animes de amor</h2>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/horimiya.webp" alt="Horimiya">
+        </div>
+        <div class="card__body">
+          <h3>Horimiya</h3>
+          <p>Pareja encantadora y momentos cotidianos.</p>
+          <ul class="tags">
+            <li>Romance</li>
+            <li>Comedia</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/kaguya.jpg" alt="Kaguya-sama: Love Is War">
+        </div>
+        <div class="card__body">
+          <h3>Kaguya-sama: Love Is War</h3>
+          <p>Guerra de ingenio entre dos enamorados.</p>
+          <ul class="tags">
+            <li>Romance</li>
+            <li>Comedia</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/silentvoice.jpg" alt="A Silent Voice">
+        </div>
+        <div class="card__body">
+          <h3>A Silent Voice</h3>
+          <p>Perdón, amistad y amor en una obra sensible.</p>
+          <ul class="tags">
+            <li>Drama</li>
+            <li>Película</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <details class="more">
+      <summary>Ver más <span class="caret"></span></summary>
+
+      <div class="grid more-grid">
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/your name.jpg" alt="Your Name">
+          </div>
+          <div class="card__body">
+            <h3>Your Name</h3>
+            <p>Romance, destino y una conexión inolvidable.</p>
+            <ul class="tags">
+              <li>Romance</li>
+              <li>Película</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/toradora.jpg" alt="Toradora">
+          </div>
+          <div class="card__body">
+            <h3>Toradora</h3>
+            <p>Comedia romántica escolar con mucho corazón.</p>
+            <ul class="tags">
+              <li>Romance</li>
+              <li>Escolar</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/clannad.jpg" alt="Clannad">
+          </div>
+          <div class="card__body">
+            <h3>Clannad</h3>
+            <p>Una historia emotiva sobre familia y amor.</p>
+            <ul class="tags">
+              <li>Drama</li>
+              <li>Romance</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/kimi-ni-todoke.jpg" alt="Kimi ni Todoke">
+          </div>
+          <div class="card__body">
+            <h3>Kimi ni Todoke</h3>
+            <p>Un romance dulce sobre amistad y confianza.</p>
+            <ul class="tags">
+              <li>Romance</li>
+              <li>Escolar</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/fruitsbasket.jpg" alt="Fruits Basket">
+          </div>
+          <div class="card__body">
+            <h3>Fruits Basket</h3>
+            <p>Amor, familia y secretos con un toque fantástico.</p>
+            <ul class="tags">
+              <li>Romance</li>
+              <li>Fantasía</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/yourlie.jpg" alt="Your Lie in April">
+          </div>
+          <div class="card__body">
+            <h3>Your Lie in April</h3>
+            <p>Música, emociones y una historia inolvidable.</p>
+            <ul class="tags">
+              <li>Drama</li>
+              <li>Música</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section id="accion" class="category container">
+    <h2 class="section-title">Animes de acción</h2>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/Jujutsukaisen.webp" alt="Jujutsu Kaisen">
+        </div>
+        <div class="card__body">
+          <h3>Jujutsu Kaisen</h3>
+          <p>Combates intensos y energía maldita.</p>
+          <ul class="tags">
+            <li>Acción</li>
+            <li>Sobrenatural</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/atackontitan.webp" alt="Attack on Titan">
+        </div>
+        <div class="card__body">
+          <h3>Attack on Titan</h3>
+          <p>Supervivencia, misterio y batallas épicas.</p>
+          <ul class="tags">
+            <li>Acción</li>
+            <li>Drama</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/hunterxhunter.jpg" alt="Hunter x Hunter">
+        </div>
+        <div class="card__body">
+          <h3>Hunter x Hunter</h3>
+          <p>Aventura, estrategia y personajes memorables.</p>
+          <ul class="tags">
+            <li>Aventura</li>
+            <li>Shonen</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <details class="more">
+      <summary>Ver más <span class="caret"></span></summary>
+
+      <div class="grid more-grid">
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/naruto.jpg" alt="Naruto">
+          </div>
+          <div class="card__body">
+            <h3>Naruto</h3>
+            <p>Ninjas, amistad y superación constante.</p>
+            <ul class="tags">
+              <li>Shonen</li>
+              <li>Acción</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/dragon-ball-super.jpg" alt="Dragon Ball Súper">
+          </div>
+          <div class="card__body">
+            <h3>Dragon Ball Súper</h3>
+            <p>Batallas, torneos y poder sin límites.</p>
+            <ul class="tags">
+              <li>Acción</li>
+              <li>Aventura</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/bleach.jpg" alt="Bleach">
+          </div>
+          <div class="card__body">
+            <h3>Bleach</h3>
+            <p>Espadas, espíritus y combates sobrenaturales.</p>
+            <ul class="tags">
+              <li>Acción</li>
+              <li>Sobrenatural</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/My_Hero_Academia.webp" alt="My Hero Academia">
+          </div>
+          <div class="card__body">
+            <h3>My Hero Academia</h3>
+            <p>Héroes en formación y grandes desafíos.</p>
+            <ul class="tags">
+              <li>Superhéroes</li>
+              <li>Acción</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/opm.jpg" alt="One Punch Man">
+          </div>
+          <div class="card__body">
+            <h3>One Punch Man</h3>
+            <p>Acción y comedia con un héroe invencible.</p>
+            <ul class="tags">
+              <li>Acción</li>
+              <li>Comedia</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section id="comedia" class="category container">
+    <h2 class="section-title">Animes de comedia</h2>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/Spyxfamily.avif" alt="Spy x Family">
+        </div>
+        <div class="card__body">
+          <h3>Spy x Family</h3>
+          <p>Una familia falsa con momentos muy divertidos.</p>
+          <ul class="tags">
+            <li>Comedia</li>
+            <li>Familia</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/konosuba.webp" alt="KonoSuba">
+        </div>
+        <div class="card__body">
+          <h3>KonoSuba</h3>
+          <p>Aventura absurda con personajes caóticos.</p>
+          <ul class="tags">
+            <li>Comedia</li>
+            <li>Isekai</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/saikik.jpg" alt="Saiki Kusuo no Psi-nan">
+        </div>
+        <div class="card__body">
+          <h3>Saiki Kusuo no Psi-nan</h3>
+          <p>Un psíquico intenta vivir una vida normal.</p>
+          <ul class="tags">
+            <li>Comedia</li>
+            <li>Escolar</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <details class="more">
+      <summary>Ver más <span class="caret"></span></summary>
+
+      <div class="grid more-grid">
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/gintama.jpg" alt="Gintama">
+          </div>
+          <div class="card__body">
+            <h3>Gintama</h3>
+            <p>Parodia, acción y humor sin límites.</p>
+            <ul class="tags">
+              <li>Comedia</li>
+              <li>Parodia</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/nichijou.jpg" alt="Nichijou">
+          </div>
+          <div class="card__body">
+            <h3>Nichijou</h3>
+            <p>Situaciones cotidianas llevadas al extremo.</p>
+            <ul class="tags">
+              <li>Comedia</li>
+              <li>Vida diaria</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/grand blue.jpg" alt="Grand Blue">
+          </div>
+          <div class="card__body">
+            <h3>Grand Blue</h3>
+            <p>Universidad, buceo y situaciones absurdas.</p>
+            <ul class="tags">
+              <li>Comedia</li>
+              <li>Universidad</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/asobiasobase.jpg" alt="Asobi Asobase">
+          </div>
+          <div class="card__body">
+            <h3>Asobi Asobase</h3>
+            <p>Humor exagerado con escenas inesperadas.</p>
+            <ul class="tags">
+              <li>Comedia</li>
+              <li>Escolar</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section id="fantasia" class="category container">
+    <h2 class="section-title">Animes de fantasía y sobrenatural</h2>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/made-in-abyss.webp" alt="Made in Abyss">
+        </div>
+        <div class="card__body">
+          <h3>Made in Abyss</h3>
+          <p>Exploración, misterio y un mundo peligroso.</p>
+          <ul class="tags">
+            <li>Fantasía</li>
+            <li>Aventura</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/mushishi.jpg" alt="Mushishi">
+        </div>
+        <div class="card__body">
+          <h3>Mushishi</h3>
+          <p>Historias tranquilas con seres sobrenaturales.</p>
+          <ul class="tags">
+            <li>Sobrenatural</li>
+            <li>Misterio</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/death note.jpg" alt="Death Note">
+        </div>
+        <div class="card__body">
+          <h3>Death Note</h3>
+          <p>Suspenso psicológico y decisiones extremas.</p>
+          <ul class="tags">
+            <li>Misterio</li>
+            <li>Sobrenatural</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <details class="more">
+      <summary>Ver más <span class="caret"></span></summary>
+
+      <div class="grid more-grid">
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/mobpsycho.jpg" alt="Mob Psycho 100">
+          </div>
+          <div class="card__body">
+            <h3>Mob Psycho 100</h3>
+            <p>Poderes psíquicos, humor y crecimiento personal.</p>
+            <ul class="tags">
+              <li>Sobrenatural</li>
+              <li>Acción</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/natsume.jpg" alt="Natsume's Book of Friends">
+          </div>
+          <div class="card__body">
+            <h3>Natsume's Book of Friends</h3>
+            <p>Encuentros con espíritus y relatos emotivos.</p>
+            <ul class="tags">
+              <li>Sobrenatural</li>
+              <li>Drama</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/blue-exorcist.jpg" alt="Blue Exorcist">
+          </div>
+          <div class="card__body">
+            <h3>Blue Exorcist</h3>
+            <p>Demonios, exorcistas y batallas intensas.</p>
+            <ul class="tags">
+              <li>Sobrenatural</li>
+              <li>Acción</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/tokyo-ghoul.jpg" alt="Tokyo Ghoul">
+          </div>
+          <div class="card__body">
+            <h3>Tokyo Ghoul</h3>
+            <p>Oscuridad, identidad y supervivencia.</p>
+            <ul class="tags">
+              <li>Terror</li>
+              <li>Sobrenatural</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media">
+            <img src="assets/noragami.jpg" alt="Noragami">
+          </div>
+          <div class="card__body">
+            <h3>Noragami</h3>
+            <p>Dioses, espíritus y acción sobrenatural.</p>
+            <ul class="tags">
+              <li>Sobrenatural</li>
+              <li>Comedia</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section id="acerca" class="about container">
+    <h2 class="section-title">Acerca del proyecto</h2>
+    <p>
+      AniVerse Studio es una página educativa creada para practicar HTML y CSS mediante tarjetas,
+      imágenes, secciones, etiquetas y diseño responsive.
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <p>&copy; 2026 AniVerse Studio. Proyecto educativo de Aplicaciones Web.</p>
+  </div>
+</footer>
+</body>
+</html>
