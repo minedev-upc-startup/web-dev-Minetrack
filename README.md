@@ -23,12 +23,12 @@ El curso se compone de videos cortos, prácticas interactivas en el editor onlin
 ### Lección 1: ¿Qué es HTML?
 - **Descripción:** Se introduce qué es HTML, su estructura básica y cómo define el contenido de una página web.  
   También se presenta el entorno de trabajo y cómo se organiza el proyecto del Blog de Animes.  
-- **Enlace:**
+- **Enlace:** https://youtu.be/sYdSBaS8uSU
 
 ### Lección 2: ¿Qué es CSS?
 - **Descripción:** Se explica el lenguaje CSS, su función para aplicar estilos a los elementos HTML y cómo ambos trabajan juntos.  
   Se muestran ejemplos prácticos de colores, tipografía y diseño básico.  
-- **Enlace:**
+- **Enlace:**  https://youtu.be/Pq-cNnikYn8
 
 ### Lección 3: Estructura del Header
 - *Descripción:* Se construye el encabezado del sitio (header) incluyendo el logotipo, menú de navegación y organización visual con HTML.  
