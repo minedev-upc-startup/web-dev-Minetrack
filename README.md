@@ -46,13 +46,13 @@ El curso se compone de videos cortos, prácticas interactivas en el editor onlin
 - **Descripción:** Se crean las secciones principales del Blog de Animes: Amor, Pelea, Comedia y Sobrenatural.  
   Cada categoría tiene tarjetas con imágenes, títulos y descripciones de distintos animes.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/wBGaaXW)  
-- **Enlace:**
+- **Enlace:** [Lección 5](https://youtu.be/JWuJbOleRH4)
 
 ### Lección 6: Categorías con CSS
 - **Descripción:** Se agregan estilos visuales a las categorías, ajustando la grilla, los márgenes y los efectos visuales para las tarjetas.  
   Se define la estructura base del contenedor `.grid` y los estilos de `.card`.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/xbVGGQm)  
-- **Enlace:**
+- **Enlace:** [Lección 6](https://youtu.be/wf1HnRzCPQc)
 
 ### Lección 7: Sección “Ver más” en HTML
 - **Descripción:** Se implementa el botón “Ver más” usando la etiqueta `<details>` para expandir más tarjetas.  
