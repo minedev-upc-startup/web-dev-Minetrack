@@ -72,3 +72,49 @@ El curso se compone de videos cortos, prácticas interactivas en el editor onlin
   Finalmente, se realiza un repaso de todo el código HTML y CSS.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/qEZdOBz)  
 - *Enlace:*
+
+---
+
+## Recursos Adicionales
+
+- *Código Fuente Completo:* [Repositorio de GitHub](https://github.com/minedev-upc-startup/web-dev-Minetrack)
+- *Editor utilizado:* [CodePen](https://codepen.io/your-work)
+- *Lenguajes usados:* HTML y CSS
+- *Herramientas aplicadas:* Google Fonts, Flexbox, CSS Grid, Gradientes, Selectores y Transiciones CSS.
+- *Duración total del curso:* 
+
+---
+
+## Elaboración
+
+*Universidad Peruana de Ciencias Aplicadas (UPC)*  
+*Carrera:* Ingeniería de Software  
+*Curso:* 1ASI0730 - Aplicaciones Web  
+*NRC:* 10215  
+*Periodo académico:* 202610  
+
+*Nombre del equipo:* Brainstorm
+*Líder del equipo:* Mendoza Machoa, Lionel
+
+*Integrantes del equipo:*
+- Mendoza Machoa, Lionel
+- Meza Huanacune, Juan José  
+- Sanchez Arenas, Zahir Emmanuel
+- Aiquipa Poma, Sebastian Andres
+- Figueroa Sanchez, Alvaro Sebastian
+- Molina Umeres, Nestor
+
+*Fecha de entrega:* 19 de junio del 2026
+
+---
+
+## Estructura del trabajo
+
+webdev-course-minetrack/<br>├─ index.html<br>├─ styles.css<br>├─ assets/<br>          │   ├─ demonslayer.jpg<br>│   ├─ spyxfamily.avif<br>│   └─ haikyuu.jpg<br>│   └─ etc<br>└─ README.md
+
+---
+
+## Conclusión
+
+El proyecto *AnimeVerse Studio* busca enseñar los fundamentos del desarrollo web de forma práctica y accesible para estudiantes de secundaria.  
+A través de las diez lecciones, se abordan conceptos esenciales de *HTML y CSS*, desde la estructura básica hasta los estilos finales de un sitio web completo.
