@@ -71,7 +71,7 @@ El curso se compone de videos cortos, prácticas interactivas en el editor onlin
   Se explica la importancia del cierre semántico del sitio y se aplican los estilos finales al pie de página.  
   Finalmente, se realiza un repaso de todo el código HTML y CSS.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/qEZdOBz)  
-- *Enlace:*
+- *Enlace:* [Lección 9 y 10](https://youtu.be/6nM6QrIaYfA)
 
 ---
 
