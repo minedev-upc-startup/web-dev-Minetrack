@@ -61,13 +61,13 @@ El curso se compone de videos cortos, prácticas interactivas en el editor onlin
 - **Descripción:** Se implementa el botón “Ver más” usando la etiqueta `<details>` para expandir más tarjetas.  
   Se explica cómo mejorar la experiencia del usuario manteniendo un diseño ordenado y dinámico.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/WbwvvVE)  
-- **Enlace:**
+- **Enlace:** [https://youtu.be/XnqHXJhHk](https://youtu.be/XnqHXJhHk)
 
 ### Lección 8: Sección “Ver más” con CSS
 - **Descripción:** Se aplican estilos al botón “Ver más” y se crea la animación de la flecha que gira al desplegar.  
   Se usa el pseudo-selector `details[open]` y se trabaja con transiciones suaves.  
 - *Editor utilizado con lección:* [CodePen](https://codepen.io/Hernan-Cuentas/pen/yyONYBK)  
-- **Enlace:**
+- **Enlace:**  [https://youtu.be/SqUZWw5LJU4](https://youtu.be/SqUZWw5LJU4)
 
 ### Lección 9 y 10: Acerca del proyecto y footer
 - *Descripción:* Se crea la sección final del proyecto Acerca del proyecto junto con el footer.  
